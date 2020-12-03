@@ -1,0 +1,143 @@
+body {
+    font-family: 'Montserrat-thicker', sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1, h2, h3, h4, h5, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.colorchange {
+    animation: colorchange 2s infinite;
+}
+@keyframes colorchange {
+    0%{color: rgb(97, 37, 84);}
+    25%{color: black;}
+    50%{color: rgb(12, 85, 81);}
+    75%{color: black;}
+    100%{color: rgb(123, 76, 138);}
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+/* Navigation Bar */
+.navbar {
+     padding: 0 0 4.5rem;  /* we have use navbar bcz it targets navigaition class in bootstrap and we've put zero padding to other except zero bcz bootstrap contains some pre applied padding */
+    }
+
+.navbar-brand {
+    font-family:'Ubuntu', sans-serif ;
+    font-size: 2.5rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+/* title-image */
+.title-image {
+    width: 100%;
+    transform: rotate(20deg);
+}
+
+/* features */
+#features {
+    padding: 7% 15%;
+}
+.feature-box {
+    padding: 5%;
+    text-align: center;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* review */
+
+#review {
+    text-align: center;
+    background-color:#ff4c68 ;
+    color: #fff;
+}
+.reviewImage {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    height: auto;
+}
+#press {
+    background-color: #ff4c68 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.logo {
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/* pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+    padding: 20px 20px 50px 20px;
+}
+#above-footer {
+    font-size: 3rem;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+    padding: 50px 0 30px 0;
+}
+#footer a {
+    padding: 0 10px 0 5px;
+
+}
+#footer-para {
+    padding-top: 20px;
+}
+
+
+/* responsive */
+@media (max-width: 800px) {
+    #title {
+        text-align: center;
+    }
+}
